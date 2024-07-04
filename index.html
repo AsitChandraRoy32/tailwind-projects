@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Ticker AI website</title>
+</head>
+
+<body class="bg-white dark:bg-gray-900">
+    <nav class="w-[100%]">
+        <div class="navbar">
+            <div class="ticker">
+                <a href="index.html"><img class="w-[60px]" src="images/tickerAI.png" alt=""></a>
+                <div>
+                    <p class="text dark:text-white">A Mark Cuban Company </p>
+                    <p class="text dark:text-white">AI-based Financial Market News Aggregator</p>
+                </div>
+            </div>
+
+            <div class="button">
+                <a href="news.html"><button class="btn_blue">Personalize News</button></a>
+                <img class="ik" src="images/ik.png" alt="">
+                <button id="switch" class="w-[10%] dark:text-white dark:invert" title="btn"><img class="moon" src="images/moon.png" alt=""></button>
+            </div>
+    </nav>
+
+    <!-- section 2 bacground -->
+    <div class="absolute -z-10 w-[100%]">
+        <img class="w-[100%] h-auto pb-10" src="images/background.png" alt="">
+
+    </div>
+    <div class="flex flex-col items-center md:px-0 px-4 md:py-12 py-4 sm:py-10">
+        <div class="flex w-96 justify-center items-center">
+            <img class="w-28 sm:w-32 md:w-48" src="images/tickerai2.png" alt="">
+        </div>
+        <div
+            class="bg-white flex items-center sm:w-60 lg:w-96 sm:py-1 lg:py-3 ps-1 sm:ps-2 md:ps-3 lg:ps-4 rounded-sm mt-2 sm:mt-3 lg:mt-10">
+            <img class="w-3 sm:w-4 md:w-5" src="images/search.png" alt="">
+            <input class="ms-2 md:ms-3 lg:ms-4 text-xs sm:text-sm lg:text-lg" placeholder="Search any market topic...">
+        </div>
+        <p class="text-white text-[10px] sm:text-xs lg:text-sm mt-1 sm:mt-2 lg:mt-5">There are 6 articles available for
+            your preferences</p>
+    </div>
+
+    <!-- section 3 ALL NEWS -->
+    <div class="all container grid grid-cols-12 mx-auto lg:pt-10 mt-14 sm:mt-5 lg:mt-8 md:mt-16 gap-5 md:px-0 px-4">
+        <div class="md:col-span-9 col-span-12 md:ml-8">
+            <div class="divide-y-2 divide-gray-800">
+                <div class="flex justify-between items-center">
+                    <h1 class="md:text-2xl text-lg font-bold pb-2 dark:text-white">ALL NEWS</h1>
+                    <div class="flex items-center">
+                        <p class="mr-2 text-sm md:text-base dark:text-white">Filter by:</p>
+                        <span class="flex items-center">
+                            <p class="font-bold text-sm md:text-base dark:text-white">Stocks</p>
+                            <img class="mt-1 dark:invert" src="images/arrow-down.png" alt="">
+                        </span>
+                    </div>
+
+                </div>
+
+                <div></div>
+            </div>
+
+            <div class="flex flex-col">
+
+                <!-- Section 4 Individual Stocks -->
+                <div class="py-5">
+                    <h1 class="text-2xl font-bold py-1 dark:text-white">Individual Stocks</h1>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/nzd.png" alt="">
+
+                        </div>
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 mt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">DOW JONES</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">NASDAQ</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
+                            </div>
+                            <div>
+                                <h1 class="font-bold mt-5 dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring
+                                    fed
+                                    for future rate hike clues</h1>
+                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex">
+                                    <p class="dark:text-white">06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1 dark:text-white">.</div>
+                                    <h4 class="ms-3 dark:text-white">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/rupee.png" alt="">
+                        </div>
+
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 pt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">DOW JONES</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">NASDAQ</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
+                            </div>
+                            <div>
+                                <h1 class="font-bold mt-5 dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in
+                                    early
+                                    trade</h1>
+                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex dark:text-white">
+                                    <p>06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1 dark:text-white">.</div>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/rupeeman.png" alt="">
+
+                        </div>
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 pt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">wall street</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">Analyst
+                                    coverage</button>
+                            </div>
+                            <div class="dark:text-white">
+                                <h1 class="font-bold mt-5">Rupee inches 5 paise higher to 77.99 against us dollar in
+                                    early
+                                    trade</h1>
+                                <p class="text-sm mt-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex">
+                                    <p>06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1">.</div>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- section 5 Stock Sectors -->
+                <div class="py-5">
+                    <h1 class="text-2xl font-bold py-1 dark:text-white">Stock Sectors</h1>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/nzd2.png" alt="">
+
+                        </div>
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 pt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">DOW JONES</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">NASDAQ</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
+                            </div>
+                            <div class="dark:text-white">
+                                <h1 class="font-bold mt-5">Nzd/usd forex technical analysis - traders will be monitoring
+                                    fed for
+                                    future rate hike clues</h1>
+                                <p class="text-sm mt-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex">
+                                    <p>06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1">.</div>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/rupeemobile.png" alt="">
+
+                        </div>
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 pt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">DOW JONES</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">NASDAQ</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
+                            </div>
+                            <div class="dark:text-white">
+                                <h1 class="font-bold mt-5">Rupee inches 5 paise higher to 77.99 against us dollar in
+                                    early trade
+                                </h1>
+                                <p class="text-sm mt-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex">
+                                    <p>06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1">.</div>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- siction 6 Stock Market Topics -->
+                <div class="py-5 mt-8">
+                    <h1 class="text-2xl font-bold py-1 dark:text-white">Stock Market Topics</h1>
+                    <div class="six">
+                        <div class="md:col-span-4 col-span-12">
+                            <img class="w-[100%] h-auto" src="images/rupeedolar.png" alt="">
+
+                        </div>
+                        <div class="md:col-span-8 col-span-12">
+                            <div class="flex gap-2 pt-5">
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">DOW JONES</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">NASDAQ</button>
+                                <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
+                            </div>
+                            <div class="dark:text-white">
+                                <h1 class="font-bold mt-5">Rupee inches 5 paise higher to 77.99 against us dollar in
+                                    early trade
+                                </h1>
+                                <p class="text-sm mt-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt
+                                    nostrud amet...</p>
+                                <div class="mt-10 flex">
+                                    <p>06 September 2022</p>
+                                    <div class="ms-3 text-blue-700 -mt-1">.</div>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- aside section -->
+        <div class="md:col-span-3 col-span-12 md:mr-8">
+            <div class="divide-y-2 divide-gray-800">
+                <h1 class="md:text-2xl text-lg font-bold pb-2 dark:text-white">FEATURED</h1>
+                <div></div>
+            </div>
+
+            <div class="flex flex-col mt-5">
+                <h1 class="text-2xl font-bold py-1 dark:text-white">Daily Rundowns</h1>
+                <div class="border-2 mt-4 p-4">
+                    <div>
+                        <h1 class="font-bold dark:text-white">Earnings:</h1>
+                        <div class="pe-1 font-medium">
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">CSAN</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">ALYA</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">GATO</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">CSS</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">VZLA</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">MFH</button>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h1 class="font-bold dark:text-white">Movers:</h1>
+                        <div class="pe-1 font-medium">
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">REV</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">PETV</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">RYTM</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">SRRK</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">VERA</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">KZIA</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">SYM</button>
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <h1 class="font-bold dark:text-white">Technicals:</h1>
+                        <div class="pe-1 font-medium">
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">BEARISH</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">REGN</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">TSLA</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">MCD</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">BULLISH</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">USO</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">SEDG</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">ENPH</button>
+                            <button class="bg-gray-200 px-2 rounded-sm pb-1 text-sm">SHOP</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5 dark:text-white">
+                    <img class="w-[100%]" src="images/aside1.png" alt="">
+                    <p class="my-3 text-center font-bold w-[90%] ms-[5%]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint.</p>
+                </div>
+                <div class="my-2 dark:text-white">
+                    <img class="w-[100%]" src="images/aside2.png" alt="">
+                    <p class="my-3 text-center font-bold w-[90%] ms-[5%]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint.</p>
+                </div>
+                <div class="my-1 dark:text-white">
+                    <img class="w-[100%]" src="images/aside3.png" alt="">
+                    <p class="my-3 text-center font-bold w-[90%] ms-[5%]">Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <footer class="bg-black text-white text-center pb-5 w-full">
+        Copyright &copy; All right reserved to TickerAI - 2024
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
