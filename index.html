@@ -22,7 +22,8 @@
             <div class="button">
                 <a href="news.html"><button class="btn_blue">Personalize News</button></a>
                 <img class="ik" src="images/ik.png" alt="">
-                <button id="switch" class="w-[10%] dark:text-white dark:invert" title="btn"><img class="moon" src="images/moon.png" alt=""></button>
+                <button id="switch" class="w-[10%] dark:text-white dark:invert" title="btn"><img class="moon"
+                        src="images/moon.png" alt=""></button>
             </div>
     </nav>
 
@@ -80,10 +81,12 @@
                                 <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
                             </div>
                             <div>
-                                <h1 class="font-bold mt-5 dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring
+                                <h1 class="font-bold mt-5 dark:text-white">Nzd/usd forex technical analysis - traders
+                                    will be monitoring
                                     fed
                                     for future rate hike clues</h1>
-                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit
+                                    aliqua dolor do
                                     amet
                                     sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                                     sunt
@@ -91,7 +94,8 @@
                                 <div class="mt-10 flex">
                                     <p class="dark:text-white">06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1 dark:text-white">.</div>
-                                    <h4 class="ms-3 dark:text-white">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                    <h4 class="ms-3 dark:text-white">By <span
+                                            class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -108,10 +112,12 @@
                                 <button class="bg-gray-800 px-2 rounded-sm pb-1 text-white text-sm">S & P 500</button>
                             </div>
                             <div>
-                                <h1 class="font-bold mt-5 dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in
+                                <h1 class="font-bold mt-5 dark:text-white">Rupee inches 5 paise higher to 77.99 against
+                                    us dollar in
                                     early
                                     trade</h1>
-                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                <p class="text-sm mt-5 dark:text-white">Amet minim mollit non deserunt ullamco est sit
+                                    aliqua dolor do
                                     amet
                                     sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                                     sunt
@@ -119,7 +125,8 @@
                                 <div class="mt-10 flex dark:text-white">
                                     <p>06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1 dark:text-white">.</div>
-                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                    <h4 class="ms-3">By <span
+                                            class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +154,8 @@
                                 <div class="mt-10 flex">
                                     <p>06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1">.</div>
-                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                    <h4 class="ms-3">By <span
+                                            class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +188,8 @@
                                 <div class="mt-10 flex">
                                     <p>06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1">.</div>
-                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK
+                                            NATH</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +217,8 @@
                                 <div class="mt-10 flex">
                                     <p>06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1">.</div>
-                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
+                                    <h4 class="ms-3">By <span
+                                            class="font-medium text-blue-700 dark:text-white">AMADO</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +252,8 @@
                                 <div class="mt-10 flex">
                                     <p>06 September 2022</p>
                                     <div class="ms-3 text-blue-700 -mt-1">.</div>
-                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK NATH</span></h4>
+                                    <h4 class="ms-3">By <span class="font-medium text-blue-700 dark:text-white">SHOUVIK
+                                            NATH</span></h4>
                                 </div>
                             </div>
                         </div>
@@ -329,8 +340,14 @@
         Copyright &copy; All right reserved to TickerAI - 2024
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        const htmlTag = document.getElementById("htmlTag");
+        const switchToggle = document.getElementById("switch");
 
+        switchToggle.addEventListener("click", function () {
+            htmlTag.classList.toggle("dark");
+        });
+    </script>
 </body>
 
 </html>
